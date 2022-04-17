@@ -54,11 +54,14 @@ table {
 
 
 html{
-    background-color: warmwhite
-    ;
+    scroll-behavior: smooth;
+
 }
 
-
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
 
 
 .top_nav{
@@ -84,15 +87,21 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    text-transform: capitalize;
- 
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
 
 }
+
+
+
+
+
 .top_nav>li:hover{
     
     text-decoration: underline 0.05em rgba(255, 255, 255, 0.613);
     text-underline-offset: 0.07em;
-    
+    transform: translate(10px);
 
 }
 

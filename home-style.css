@@ -70,10 +70,9 @@ a{
     width: 100%;
     background-color: rgb(0, 0, 0);
     margin:auto;
-    width: 100%;
     justify-content: flex-end;
-    font-family: 'Poppins', sans-serif;
-    font-size: 100%;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 120%;
     color:white
 }
 .top_nav > li{
@@ -81,13 +80,13 @@ a{
     
     color: rgb(255, 255, 255);
    
-    padding: 0 2em 0 2em;
-    width: auto;
+    padding: 0 1em 0 1em;
+    width:10%;
     border-left: solid 0.05em rgba(245, 245, 245, 0.613);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    transition-property: all;
+    transition-property: width;
     transition-duration: 250ms;
     transition-timing-function: linear;
 
@@ -95,13 +94,16 @@ a{
 
 
 
-
+a:hover{
+    text-decoration: underline 0.05em rgba(255, 255, 255, 0.613);
+    text-underline-offset: 0.07em;
+}
 
 .top_nav>li:hover{
     
-    text-decoration: underline 0.05em rgba(255, 255, 255, 0.613);
-    text-underline-offset: 0.07em;
-    transform: translate(10px);
+
+    width: 9%;
+    background-color: rgba(156, 60, 60, 0.4);
 
 }
 

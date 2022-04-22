@@ -89,7 +89,7 @@ nav ul li{
 
 
 nav ul li:hover{
-    background-color: #457b9d;
+    background-color: #457b9d81;
     color: #f8edeb;
     cursor: pointer;
     border-radius: 0.9em;
@@ -98,13 +98,13 @@ nav ul li:hover{
 }
 
 nav a:focus{
-    background-color: #2f556d;
+    background-color: #2f556d7b;
     color: #f8edeb;
     cursor: pointer;
     border: none;
     border-radius: 0.9em;
     outline: none;
-   
+    pointer-events: none;
     
 }
 #contact{
@@ -113,7 +113,8 @@ nav a:focus{
     color: #f8edeb;
     
     border-radius: 1.5em;
-    margin-right: 1em;
+    margin-right: 1em; 
+    margin-left: 1em; 
 
 }
 
@@ -132,9 +133,7 @@ nav a:focus{
         align-items: center;
     }
     #contact{
-
-
-    margin-right:0.1em;
-
-}
+        
+        margin-right:0.1em;
+    }
 }

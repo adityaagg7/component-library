@@ -96,6 +96,17 @@ nav ul li:hover{
    
     
 }
+
+nav a:focus{
+    background-color: #457b9d;
+    color: #f8edeb;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.9em;
+    outline: none;
+   
+    
+}
 #contact{
 
     background-color: #457b9d;
@@ -105,10 +116,12 @@ nav ul li:hover{
     margin-right: 1em;
 
 }
+
 #contact:hover{
     cursor: pointer;
      background-color: #2f556d;
 }
+
 
 @media (max-width:700px){
     html{
